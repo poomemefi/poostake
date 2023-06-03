@@ -1,6 +1,6 @@
-# ERC20 $POO Stake Smart Contract
+# $POO Stake Smart Contract
 
-This repository contains the code for an Ethereum-based ERC20 staking smart contract for the POO Token.
+This repository contains the code for an Ethereum-based staking smart contract for the POO Token.
 
 ## Key Features
 - Deployed and controlled by master address that deploys the contract
