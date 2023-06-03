@@ -4,7 +4,8 @@ This repository contains the code for an Ethereum-based ERC20 staking smart cont
 
 ## Key Features
 - Deployed and controlled by master address that deploys the contract
-- Staking reserve pool that accepts token deposits from any address - Master address can withdraw any tokens deposited into the reserve at any time
+- Staking reserve pool that accepts token deposits from any address
+- Master address can withdraw any tokens deposited into the reserve at any time
 - Users accrue rewards on a daily basis, displayed on the DApp
 - Contract can be updated by the master address, including updating reward variables
 - Minimum staking amount: 100 $POO tokens
