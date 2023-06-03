@@ -12,6 +12,9 @@ This repository contains the code for an Ethereum-based ERC20 staking smart cont
 - Maximum staking amount: N/A
 - Locked staking duration to receive rewards: 3 months
 - Stakes are locked for the duration of the stake (minimum of 3 months) and only end when the user unstakes their tokens. Users can only unlock staking requests and withdraw rewards after this period.
+- Stakers accrue rewards based on the equation: Individual staking power / Total staking power ie. 100 / 5000 = .02 rewards rate
+- Individual staking power = Duration of stake * Amount of $POO staked ie. 100 = 1 day * 100 $POO
+- Total Staking Power = Sum of all individual staking power ie. 5000 = 50 Stakers that all have 100 ISP 
 
 ## Staking Process
 1. To stake $POO tokens, users must first approve the staking contract to spend their tokens.
